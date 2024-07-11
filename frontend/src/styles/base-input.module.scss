@@ -1,0 +1,80 @@
+@use "./variables" as var;
+
+// Base styling
+
+.inputBase {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-block: 0.5rem;
+  padding-inline: 0.75rem;
+
+  border-width: 1px;
+  outline: none;
+  border-style: solid;
+  margin-bottom: 4px;
+  transition: border-color, transform 0.2s ease-in;
+
+  &:focus {
+    transform: scale(1.05);
+  }
+}
+
+.labelBase {
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+// Primary styling (i.e register form )
+
+.inputPrimary {
+  background-color: var.$whity;
+  opacity: 0.5;
+  border-radius: 0.625rem;
+  border-color: var.$greeny;
+  transition: box-shadow 0.15s ease;
+
+  &:focus {
+    border-color: hsl(184, 65%, 14%);
+    box-shadow: 0 7px 12px #2222225f;
+    &:focus {
+      transform: scale(1);
+    }
+  }
+}
+
+.labelPrimary {
+  color: var.$greeny;
+}
+
+// Secondary styling (i.e employment form )
+
+.inputSecondary {
+  background-color: transparent;
+  border-radius: 0.313rem;
+  color: var.$whity;
+  border-color: var.$whity;
+  width: 31.25rem;
+
+  &::placeholder {
+    color: var.$whity;
+    opacity: 0.5;
+  }
+
+  &:focus {
+    border-color: #ffa;
+  }
+}
+
+.labelSecondary {
+  color: var.$whity;
+}
+
+.inputError {
+  opacity: 0.9;
+  color: crimson;
+
+  font-size: 0.85rem;
+  font-weight: 500;
+}

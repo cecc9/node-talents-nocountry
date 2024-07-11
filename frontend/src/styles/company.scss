@@ -1,0 +1,162 @@
+.company {
+  width: 100%;
+
+  &__profile {
+    width: 100%;
+    padding: 37px;
+    // background-color: $whity;
+
+    &__title {
+      font-size: 24px;
+      color: $greeny-light;
+      line-height: 36px;
+      margin-bottom: 28px;
+      font-weight: 700;
+    }
+  }
+}
+
+.profile__data {
+  width: 100%;
+  padding: 12px 24px 0 24px;
+
+  &__pers,
+  &__contact {
+    padding: 24px 18px 24px 18px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px 0px #0000001a;
+    border: 1px $whity solid;
+    margin-bottom: 18px;
+    background-color: white;
+  }
+}
+
+.company-sidebar {
+  /* Estilos para el título */
+  &__title {
+    color: $greeny-light;
+    margin-bottom: 28px;
+  }
+
+  /* Estilos para la sección */
+  &__section {
+    padding: 16px 18px;
+    background-color: #fff;
+    box-shadow: 4px 4px 10px 0px #0000001a;
+    border-radius: 10px;
+    margin-bottom: 18px;
+  }
+
+  /* Estilos para el figure */
+  &__figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 25px;
+  }
+
+  &__icon {
+    background-color: $greeny-normal-oscure;
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+
+    color: $boney-light;
+  }
+
+  &__name {
+    font-size: 16px;
+    font-weight: 700;
+    color: $greeny-black;
+  }
+
+  /* Estilos para el contenedor de datos personales */
+  &__personal-data {
+    color: $greeny-black;
+  }
+
+  &__data-category {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+    border-bottom: 1px solid $greeny-black;
+  }
+
+  &__category-title {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  /* Estilos para los datos */
+  &__data {
+    margin-top: 10px;
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+
+    p {
+      width: calc(50% - 12px);
+      padding: 0;
+      height: fit-content;
+    }
+  }
+
+  &__data-item {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  &__desc {
+    &-p {
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    &-text {
+      width: 100%;
+      height: 118px;
+      background: #5ba1a617;
+      border: 1px solid $greeny-normal-oscure;
+      border-radius: 10px;
+    }
+  }
+
+  /* Estilos para el contenedor de datos de contacto */
+  &__contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+    border-bottom: 1px solid $greeny-black;
+    color: $greeny-black;
+  }
+
+  &__contact-title {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  &__contact-data {
+    gap: 8px;
+    color: $blacky-green;
+    margin-top: 10px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+
+    p {
+      width: calc(50% - 12px);
+      padding: 0;
+      height: fit-content;
+    }
+  }
+
+  &__contact-item {
+    font-size: 12px;
+    font-weight: 600;
+  }
+}

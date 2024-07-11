@@ -1,0 +1,156 @@
+.profile {
+  width: 100%;
+  padding: 37px;
+
+  &__title {
+    font-size: 24px;
+    color: $greeny-light;
+    line-height: 36px;
+    margin-bottom: 28px;
+    font-weight: 700;
+  }
+
+  &__data {
+    width: 218px;
+    margin-right: 36px;
+
+    &__pers,
+    &__contact {
+      padding: 24px 18px 24px 18px;
+      border-radius: 10px;
+      box-shadow: 4px 4px 10px 0px #0000001a;
+      border: 1px $whity solid;
+      margin-bottom: 18px;
+    }
+
+    &--download {
+      background-color: $boney-light;
+      width: 217px;
+      height: 36px;
+      border: 1px solid $blacky-green;
+      border-radius: 20px;
+      color: $blacky-green;
+      font-weight: 600;
+    }
+  }
+
+  &__CV {
+    padding: 24px 38px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px 0px #0000001a;
+    border: 1px $whity solid;
+    width: calc(100% - 254px);
+  }
+}
+
+.candidate-sidebar {
+  /* Estilos para el título */
+  &__title {
+    color: $greeny-light;
+    margin-bottom: 28px;
+  }
+
+  /* Estilos para la sección */
+  &__section {
+    padding: 16px 18px;
+    width: 218px;
+    background-color: #fff;
+    box-shadow: 4px 4px 10px 0px #0000001a;
+    border-radius: 10px;
+    margin-bottom: 18px;
+  }
+
+  /* Estilos para el figure */
+  &__figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 25px;
+  }
+  &__icon {
+    background-color: $greeny-normal-oscure;
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+
+    color: $boney-light;
+  }
+  //   &__figcaption {
+  //   }
+  &__name {
+    font-size: 12px;
+    font-weight: 700;
+    color: $greeny-black;
+  }
+
+  /* Estilos para el contenedor de datos personales */
+  &__personal-data {
+    color: $greeny-black;
+  }
+  &__data-category {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+    border-bottom: 1px solid $greeny-black;
+  }
+  &__category-title {
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  /* Estilos para los datos */
+  &__data {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  &__data-item {
+    font-size: 10px;
+    font-weight: 600;
+  }
+
+  /* Estilos para el contenedor de datos de contacto */
+  &__contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+    border-bottom: 1px solid $greeny-black;
+    color: $greeny-black;
+  }
+
+  &__contact-title {
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  &__contact-data {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: $blacky-green;
+    margin-top: 10px;
+  }
+
+  &__contact-item {
+    font-size: 10px;
+    font-weight: 600;
+  }
+
+  /* Estilos para el botón de descarga */
+  &__download-cv-btn {
+    width: 100%;
+    background-color: $boney-light;
+    height: 36px;
+    border-radius: 20px;
+    color: $greeny-black;
+    font-size: 12px;
+    font-weight: 600;
+    border: 1px solid $greeny-black;
+  }
+}

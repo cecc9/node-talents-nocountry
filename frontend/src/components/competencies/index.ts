@@ -1,0 +1,5 @@
+export { default as Experience } from "./experience"
+export { default as Education } from "./education"
+export { default as CoursesCertifications } from "./courses-certifications"
+export { default as Languages } from "./languages"
+export { default as AdditionalInformation } from "./additional-information"

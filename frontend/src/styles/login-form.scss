@@ -1,0 +1,63 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // gap: 16px;
+  // background-color: burlywood;
+  .login-form__title {
+    color: #fff;
+    padding-bottom: 16px;
+    line-height: 36px;
+    text-align: center;
+  }
+  .login-form__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+    // border: 1px solid #fff;
+    margin-bottom: 50px;
+  }
+  .login-form__button {
+    width: 147px;
+    height: 36px;
+    border: none;
+    outline: none;
+
+    font-size: 12px;
+    font-weight: 600;
+    font-family: var(--font-poppins);
+
+    border-radius: 20px;
+    background-color: #f9f8eb;
+    color: #14565a;
+
+    cursor: pointer;
+  }
+
+  .login-form__text {
+    font-size: 10px;
+    font-weight: 600;
+    color: #fff;
+
+    margin-bottom: 50px;
+  }
+  .login-form__link {
+    color: #155e63;
+    padding-left: 5px;
+    text-decoration: none;
+  }
+  .login-form__company-button {
+    font-size: 12px;
+    font-weight: 600;
+    color: #155e63;
+    cursor: pointer;
+
+    width: 238px;
+    height: 44px;
+    border-radius: 25px;
+    border: 1px solid #155e63;
+    background-color: transparent;
+  }
+}

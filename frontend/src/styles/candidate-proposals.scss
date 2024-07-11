@@ -1,0 +1,215 @@
+.proposals {
+  width: 100%;
+  // background-color: $whity;
+  padding: 24px;
+
+  &__header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 23px;
+
+    &--tittle {
+      font-size: 24px;
+      line-height: 36px;
+      font-weight: 700;
+      color: $greeny-normal;
+    }
+
+    &__sort {
+      button {
+        width: 139px;
+        height: 36px;
+        border-radius: 5px;
+        border: 1px solid $greeny-normal-oscure;
+        color: $greeny-normal-oscure;
+        background-color: $whity;
+      }
+    }
+  }
+
+  &__date {
+    width: 353px;
+    height: 42px;
+    border-radius: 25px;
+    background-color: #5ba1a682;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 18px;
+
+    button {
+      padding: 3px 12px;
+      background-color: $boney-light;
+      border-radius: 25px;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 18px;
+      color: $greeny-normal-oscure;
+      height: fit-content;
+      border: none;
+
+      &:active,
+      &:hover {
+        background-color: $greeny-normal-oscure;
+        color: white;
+      }
+    }
+  }
+
+  &__main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.offers-received {
+  width: 45%;
+  border: 1px solid $greeny-normal-oscure;
+  border-radius: 15px;
+  background-color: white;
+
+  &--tittle {
+    margin: 0 auto;
+    width: 98%;
+    border-bottom: 1px solid $greeny-normal-oscure;
+    padding: 24px;
+    p {
+      color: $blacky-green;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+    }
+  }
+
+  &__list {
+    width: 100%;
+    padding: 19px 17px;
+  }
+}
+
+.offer {
+  width: 100%;
+  padding: 12px 0;
+  border-bottom: 1px solid $greeny-normal-oscure;
+
+  &-cont {
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+
+    &__select {
+      background-color: #5ba1a682;
+      width: 18px;
+      margin-right: 18px;
+      border-radius: 10px 0px 0px 10px;
+    }
+
+    &__desc {
+      padding: 8px;
+
+      &--job,
+      &--company {
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 18px;
+        color: $blacky-green;
+      }
+
+      &--company {
+        color: $greeny-normal-oscure;
+      }
+
+      &--location,
+      &--time {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14.52px;
+        color: #797979;
+      }
+
+      &--time {
+        margin-top: 18px;
+      }
+    }
+  }
+}
+
+.offer-details {
+  width: 50%;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid $greeny-normal-oscure;
+  border-radius: 15px;
+
+  &__header {
+    padding: 12px;
+    border-bottom: 1px solid $greeny-normal-oscure;
+
+    &--job,
+    &--company,
+    &--area {
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 18px;
+      color: $greeny-normal-oscure;
+    }
+
+    &--job {
+      color: $blacky-green;
+    }
+
+    &--location {
+      margin-top: 18px;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 14.52px;
+      color: #797979;
+      margin-bottom: 12px;
+    }
+
+    button {
+      width: 111px;
+      height: 42px;
+      border-radius: 35px;
+      background-color: $greeny-normal-oscure;
+      color: white;
+      border: none;
+    }
+  }
+
+  &__desc {
+    margin-top: 12px;
+
+    p {
+      font-size: 10px;
+      font-weight: 400;
+      line-height: 15px;
+      color: #797979;
+      margin-bottom: 24px;
+    }
+  }
+}
+
+.no-offer {
+  width: 100%;
+
+  div {
+    width: 100%;
+    height: 45px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: $greeny-light;
+  }
+
+  p {
+    margin: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    color: $greeny-normal-oscure;
+  }
+}

@@ -1,0 +1,99 @@
+.candidate-competencies {
+  width: 100%;
+  padding: 45px;
+
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  margin-bottom: 20px;
+
+  &__button {
+    background-color: $boney-light;
+    padding: 9px 18px;
+    border-radius: 5px;
+    border: 1px solid $blacky-green;
+
+    font-size: 12px;
+    font-weight: 700;
+    color: $blacky-green;
+
+    &--active {
+      background-color: $blacky-green;
+      color: $boney-light;
+
+      border: 1px solid $boney-light;
+    }
+  }
+}
+
+.category {
+  box-shadow: 4px 4px 10px #0000001a;
+  border-radius: 0 0 10px 10px;
+  //   flex: 1;
+
+  &__title {
+    background-color: $greeny-light;
+    border-radius: 10px 10px 0 0;
+
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+
+    padding: 12px 32px;
+  }
+
+  &__content {
+    // Estilos para el contenido de la categoría
+    padding: 30px;
+    background-color: #fff;
+    // height: 100%;
+    border-radius: 0 0 10px 10px;
+  }
+
+  &__info {
+    // Estilos para la información adicional
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 5px;
+
+    border-bottom: 1px solid $greeny-light;
+  }
+
+  &__text {
+    // Estilos para el texto dentro de la información adicional
+    color: $blacky-green;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  &__actions {
+    // Estilos para las acciones dentro de la información adicional
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    color: $greeny-black;
+    cursor: pointer;
+  }
+
+  &__button {
+    // Estilos para el botón dentro de las acciones
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  &__list {
+    // Estilos para la lista de experiencias laborales
+    padding: 20px;
+  }
+}

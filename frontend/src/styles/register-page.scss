@@ -1,0 +1,17 @@
+.register-page {
+  background-image: linear-gradient(
+      rgba(91, 161, 166, 0.75),
+      rgba(91, 161, 166, 0.75)
+    ),
+    url("../../public/assets/bg-login.webp");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

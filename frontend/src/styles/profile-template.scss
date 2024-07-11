@@ -1,0 +1,29 @@
+$bg_profile: #f5f5f5;
+
+.profile-template {
+  // background-color: $bg_profile;
+  padding: 40px;
+  display: flex;
+  width: 100%;
+
+  // &__sidebar {
+  //   background-color: lightcoral;
+  //   width: 400px;
+  // }
+
+  &__competencies {
+    // background-color: lightgreen;
+  }
+
+  &__tabs {
+    background-color: lightblue;
+    height: 100px;
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 10px;
+  }
+}
